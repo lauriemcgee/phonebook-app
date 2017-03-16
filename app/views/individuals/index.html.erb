@@ -1,0 +1,11 @@
+
+
+<% @contacts.each do |individual| %>
+<div class="container-fluid">
+  <h4> <%= individual.first_name %> </h4>
+  <p><%= individual.phone_number %></p>
+  <p><%= individual.email %></p>
+  <p><%= individual.bio %></p>
+  <a href= "/contacts/:id"
+</div>
+<% end %>
